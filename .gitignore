@@ -1,0 +1,81 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ------------------------
+# Virtual environments
+# ------------------------
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# ------------------------
+# Build / Distribution
+# ------------------------
+build/
+dist/
+output/
+output_*/
+*.exe
+*.dll
+
+# ------------------------
+# Logs & Temp files
+# ------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ------------------------
+# IDE / Editor configs
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# OS-generated files
+# ------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------
+# Credentials & Secrets
+# ------------------------
+.env
+credentials.json
+token.json
+user_credentials.json
+*.pem
+*.p12
+*.key
+
+# ------------------------
+# Audio / Wake Word files
+# ------------------------
+*.wav
+*.mp3
+wake_words/*
+
+# ------------------------
+# Test / Coverage
+# ------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
