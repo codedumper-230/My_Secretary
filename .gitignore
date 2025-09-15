@@ -59,6 +59,7 @@ desktop.ini
 # ------------------------
 .env
 credentials.json
+token.pickle
 token.json
 user_credentials.json
 *.pem
@@ -79,3 +80,12 @@ wake_words/*
 htmlcov/
 .pytest_cache/
 .mypy_cache/
+"token.pickle"
+#------------------------- 
+# Ignore sensitive files
+#-------------------------
+token.pickle
+token.json
+credentials.json
+.env
+
